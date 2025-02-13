@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .app-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}
