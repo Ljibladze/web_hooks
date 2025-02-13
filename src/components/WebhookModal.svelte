@@ -163,7 +163,7 @@
     border-radius: 10px;
     cursor: pointer;
     margin-top: 10px;
-    min-width: 120px; /* Optional: Set a minimum width */
+    min-width: 120px; 
   }
 
   .close-btn {

@@ -6,7 +6,7 @@
   import Notification from "./components/Notification.svelte";
   import { showCreateModal, showFilterModal, selectedWebhook } from "./store/store";
 
-  let activeTab: "configuration" | "statuses" = "configuration"; // ✅ Default active tab
+  let activeTab: "configuration" | "statuses" = "configuration"; 
 
   function switchTab(tab: "configuration" | "statuses") {
     activeTab = tab;

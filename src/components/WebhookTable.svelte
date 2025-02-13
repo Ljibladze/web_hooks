@@ -5,7 +5,6 @@
   export let activeTab: "configuration" | "statuses";
 
   let showMenu = null; 
-  let selectedRow = null;
 
   function editWebhook(webhook) {
     selectedWebhook.set(webhook);

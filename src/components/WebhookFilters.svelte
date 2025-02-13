@@ -1,8 +1,6 @@
 <script lang="ts">
   import { showFilterModal, selectedFilters } from "../store/store";
-  import FaFilter from 'svelte-icons/fa/FaFilter.svelte'
   import filterIcon from '../assets/Icon.svg'
-  import search from '../assets/search.svg'
 
   function openFilterModal() {
     showFilterModal.set(true);

@@ -1,9 +1,5 @@
 <script lang="ts">
   import FaRegStopCircle from 'svelte-icons/fa/FaRegStopCircle.svelte'; 
-  import FaHome from 'svelte-icons/fa/FaHome.svelte';
-  import FaRegAddressCard from 'svelte-icons/fa/FaRegAddressCard.svelte';
-  import MdSettings from 'svelte-icons/md/MdSettings.svelte';
-  import DiCode from 'svelte-icons/di/DiCode.svelte';
   import home from '../assets/home-line.svg';
   import settings from '../assets/settings.svg';
   import code from '../assets/code.svg';
@@ -14,7 +10,6 @@
   <nav>
     <ul>
       <li>
-        <!-- Use FaRegStopCircle icon in the first list item -->
         <FaRegStopCircle class="sidebar-icon" />
       </li>
       <li><img src={home}/></li>
@@ -32,10 +27,9 @@
     padding: 20px;
   }
 
-  /* Styling for all icons to have consistent size */
   .sidebar svg {
-    width: 20px;  /* Set width */
-    height: 24px; /* Set height */
+    width: 20px;  
+    height: 24px; 
   }
   
   ul {
